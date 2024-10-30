@@ -13,6 +13,7 @@ The goals / steps of this project are the following:
 * Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
 * **Implement real-time lane detection using a webcam**.
 * **Adapt the detection algorithm to varying weather and environmental conditions** for improved performance.
+* **Utilize PID control for lane keeping**: Implement a PID (Proportional-Integral-Derivative) controller to maintain the vehicle's position within the lane boundaries. This controller adjusts the steering angle based on the vehicle's deviation from the center of the lane, providing smoother and more responsive steering control.
 
 The images for camera calibration are stored in the folder called `camera_cal`. The images in `test_images` are for testing your pipeline on single frames.
 
@@ -25,7 +26,7 @@ If you're feeling ambitious (again, totally optional though), don't stop there! 
 ### 1. Set up the environment 
 ```bash
 conda env create -f environment.yml
-```
+
 
 To activate the environment:
 

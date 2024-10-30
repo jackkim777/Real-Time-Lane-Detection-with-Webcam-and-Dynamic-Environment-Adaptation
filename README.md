@@ -1,5 +1,3 @@
-수정된 README 파일은 다음과 같이 작성할 수 있습니다. 원래 내용을 유지하되, 수정한 점과 라이선스를 추가하였습니다.
-
 ```markdown
 ## Real-Time Lane Detection with Webcam and Dynamic Environment Adaptation
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)

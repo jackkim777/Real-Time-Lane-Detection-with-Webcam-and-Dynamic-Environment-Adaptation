@@ -1,7 +1,3 @@
-```markdown
-## Real-Time Lane Detection with Webcam and Dynamic Environment Adaptation
-[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
-
 The Project
 ---
 
@@ -38,12 +34,10 @@ To activate the environment:
 
 ### 2. Run the pipeline:
 ```bash
-python lane_detection.py  # For real-time lane detection with webcam
-python lane_detection.py --video INPUT_VIDEO OUTPUT_VIDEO_PATH  # For video input
+python main1.py  # For real-time lane detection with webcam
+python main1.py --video INPUT_VIDEO OUTPUT_VIDEO_PATH  # For video input
 ```
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. The original project was based on Udacity's Advanced Lane Lines project, which is available [here](https://github.com/udacity/CarND-Advanced-Lane-Lines).
 ```
-
-이 수정된 README는 원래 프로젝트의 내용을 포함하면서, 당신이 추가한 기능과 라이선스 정보를 명확히 반영하고 있습니다. 필요한 경우 추가적인 내용을 더하거나 조정하셔도 좋습니다!
